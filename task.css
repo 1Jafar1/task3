@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding:0px ;
+    box-sizing: border-box;
+}
+header{
+    padding: 20px 0px;
+
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container{
+    width: 1200px;
+    margin: 0px auto;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    gap: 20px;
+}
+nav{
+    margin-left: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+}
+
+button{
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background-color: transparent;
+   
+}
+button:hover{
+    transition: all .3s ease;
+    background-color: black;
+    color: white;
+}
+
+.count{
+    color: white;
+    padding: 5px 8px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+button:hover .count{
+    background-color: white;
+    color: black;
+}
+
+/* Hero Section Start */
+#hero{
+    background-color: black;
+    height: 350px;
+    color: white;
+    opacity: 0.8;
+}
+
+.hero-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    gap: 15px;
+}
+
+.hero-wrapper h2{
+    font-size: 60px;
+    letter-spacing: 1px;
+}
+.hero-wrapper p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    opacity: 0.5;
+}
+/* Hero Section End */
+
+#products{
+    margin: 50px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card{
+    width: 300px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.card-top img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.card-bottom{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#add{
+    margin: 50px;
+}
+
+.add-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.add-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.add-form input{
+    padding: 10px;
+    border-radius: 8px;
+}
